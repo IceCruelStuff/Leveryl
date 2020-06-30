@@ -9,7 +9,6 @@ RULES:
  - Information must be provided in the issue body, not in the title. No tags like [BUG] are allowed in the title, including [SOLVED] for solved issues.
  - To express appreciation, objection, confusion or other supported reactions on pull requests, issues or comments on them, use GitHub reactions rather than posting an individual comment with an emoji only. This helps keeping the issue/pull request conversation clean and readable.
 
-The Drill: https://github.com/LeverylTeam/Leveryl/blob/master/assets/joke.jpg
 -->
 ### Issue description
 Write a short description about the issue

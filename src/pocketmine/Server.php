@@ -2651,7 +2651,7 @@ class Server {
 			if($p === $player){
 				continue; //fixes duplicates
 			}
-			$pk->entries[] = [$player->getUniqueId(), $player->getId(), $player->getDisplayName(), $player->getSkinId(), $player->getSkinData()];
+			$pk->entries[] = [$player->getUniqueId(), $player->getId(), $player->getDisplayName(), $player->getSkinId(), "", 0, $player->getSkinData()];
 		}
 
 		$p->dataPacket($pk);

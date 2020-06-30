@@ -27,7 +27,10 @@ class AddPlayerPacket extends DataPacket {
 
 	public $uuid;
 	public $username;
+	public $thirdPartyName = "";
+	public $platform = 0;
 	public $eid;
+	public $string1 = "";
 	public $x;
 	public $y;
 	public $z;
@@ -44,7 +47,20 @@ class AddPlayerPacket extends DataPacket {
 	 *
 	 */
 	public function decode(){
-
+		$this->uuid = $this->getUUID();
+		$this->username = $this->getString();
+		$this->thirdPartyName = $this->getString();
+		$this->platform = $this->getVarInt();
+		$this->eid = $this->getEntityId();
+		$this->eid = $this->getEntityId();
+		$this->string1 = $this->getString();
+		$this->position = $this->getVector3();
+		$this->motion = $this->getVector3();
+		$this->pitch = $this->getLFloat();
+		$this->headYaw = $this->getLFloat();
+		$this->yaw = $this->getLFloat();
+		$this->item = $this->getSlot();
+		$this->metadata = $this->putEntityMetadata();
 	}
 
 	/**
@@ -54,8 +70,11 @@ class AddPlayerPacket extends DataPacket {
 		$this->reset();
 		$this->putUUID($this->uuid);
 		$this->putString($this->username);
+		$this->putString($this->thirdPartyName);
+		$this->putVarInt($this->platform);
 		$this->putEntityId($this->eid); //EntityUniqueID
 		$this->putEntityId($this->eid); //EntityRuntimeID
+		$this->putString($this->string1);
 		$this->putVector3f($this->x, $this->y, $this->z);
 		$this->putVector3f($this->speedX, $this->speedY, $this->speedZ);
 		$this->putLFloat($this->pitch);
