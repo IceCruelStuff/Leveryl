@@ -11,6 +11,9 @@ Report any BUGS in the issues section...
 NOTE: **The master branch is the only officially supported branch.**
 _All other branches are in testing and may be unstable. Do not use builds from other branches unless you are sure you understand the risks._
 
+# Attention
+**This repository is mostly inactive except for a few branches. Try [TesseractPro](https://github.com/TesseractPro/TesseractPro).**
+
 ## Notice
 Leveryl for Minecraft Bedrock edition (PE) v1.2.0 is currently being developed. Please be patient on waiting for it to be ready for merging...
 <br />
