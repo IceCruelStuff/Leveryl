@@ -11,21 +11,21 @@ Report any BUGS in the issues section...
 NOTE: **The master branch is the only officially supported branch.**
 _All other branches are in testing and may be unstable. Do not use builds from other branches unless you are sure you understand the risks._
 
-# Notice
+## Notice
 Leveryl for Minecraft Bedrock edition (PE) v1.2.0 is currently being developed. Please be patient on waiting for it to be ready for merging...
 <br />
 If you want to contribute and/or help, You may open a Pull Request on the [MCPE1dot2](https://github.com/LeverylTeam/Leveryl/tree/mcpe1dot2) branch...
 <br />
 If it's correct, we'll surely merge it.
 
-# Donating
+## Donating
 [Head Developer's PayPal Donation Page](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MABFZPDR8F5UG)
 <br />Your donations support us as we continue to Develop Leveryl for free :wink:
 
-# Where can I get the Latest Leveryl phar?
+## Where can I get the Latest Leveryl phar?
 You can download the latest phar from our [Jenkins Build Server](http://cortexpe.xyz:8080/job/Leveryl/lastSuccessfulBuild/)
 
-# Features:
+## Features:
 - [X] **CustomPotions**
 - [X] **Fully Support UserNames with spaces**
 - [X] **XBox Live Authentication**
@@ -40,26 +40,26 @@ You can download the latest phar from our [Jenkins Build Server](http://cortexpe
 
 ***Other List Entries are on "leveryl.yml"....***
 
-# Builds, Gitter Chat & Discord Server:
+## Builds, Gitter Chat & Discord Server:
 #### Jenkins Build Status: [![Jenkins](http://cortexpe.xyz:8080/job/Leveryl/badge/icon)](http://cortexpe.ml:8080/job/Leveryl/)
 #### TravisCI Build Status: [![TravisCI](https://travis-ci.org/LeverylTeam/Leveryl.svg?branch=master)](https://travis-ci.org/LeverylTeam/Leveryl)
 #### Gitter Chat: [![Gitter](https://badges.gitter.im/leveryl/leveryl.svg)](https://gitter.im/leveryl/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=pr-badge)
 #### Discord Server (Talk to a Human For Support): [Join Server](https://discord.gg/8dXXsTq)
 
-# Windows & Linux Installation:
+## Windows & Linux Installation:
 Read [this](https://github.com/LeverylTeam/Leveryl/wiki/Installation) page on our [Wiki](https://github.com/LeverylTeam/Leveryl/wiki/)... ;)
 
-# Resources:
+## Resources:
 To be able to run this on Windows, You'll need Visual Studio C++ Redistributable 2015,
 Which can be downloaded [Here](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
 
-# Acknowledgements / Credits:
+## Acknowledgements / Credits:
 - Leveryl is a "spoon" of **[Pocketmine-MP](http://github.com/PocketMine/PocketMine-MP/)**
 - Most of the original code was written by the original [PocketMine](https://github.com/PocketMine) Team and [GenisysPro](https://github.com/GenisysPro).
 - Some Implementations are ported from [Tesseract](https://github.com/TesseractTeam/Tesseract), [PMMP](http://github.com/pmmp/PocketMine-MP/), [Prismarine](https://github.com/PrismarineMC/Prismarine) and [Genisys](https://github.com/ITXTech/Genisys)
 - Ported files' authors are stated inside the file
 
-# License:
+## License:
 ```
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -74,7 +74,7 @@ GNU Lesser General Public License for more details.
 You should have received a copy of the GNU Lesser General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
-# Third-party Libraries/Protocols Used:
+## Third-party Libraries/Protocols Used:
 * __[PHP Sockets](http://php.net/manual/en/book.sockets.php)__
 * __[PHP mbstring](http://php.net/manual/en/book.mbstring.php)__
 * __[PHP SQLite3](http://php.net/manual/en/book.sqlite3.php)__
